@@ -224,7 +224,7 @@
             <div class="row">
                 <div class="col-md-12 pl-0 pr-0">
                     <div class="grid">
-                        <div class="horizontal">
+                        <div class="horizontal right">
                             <img src="/images/pages/home/3.jpg" class="max-100 radius-15">
                         </div>
                         <div class="vertical">
