@@ -230,10 +230,10 @@
                         <div class="vertical">
                             <img src="/images/pages/home/6.jpg" class="max-100 radius-15">
                         </div>
-                        <div>
+                        <div class="right">
                             <img src="/images/pages/home/4.jpg" class="max-100 radius-15">
                         </div>
-                        <div>
+                        <div class="right">
                             <img src="/images/pages/home/5.jpg" class="max-100 radius-15">
                         </div>
                     </div>
