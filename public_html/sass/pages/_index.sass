@@ -1,0 +1,178 @@
+@import ../base
+
+.index-page
+	.welcome-slider
+		.slider-wrapper
+			position: relative
+
+			.slider
+				.slick-slide
+					background: center center no-repeat
+					background-size: cover
+					border-radius: 15px
+					height: 640px
+
+					.content
+						height: 100%
+						display: flex
+						justify-content: space-between
+						flex-direction: column
+						padding: 30px 30px 15px
+						font-weight: 700
+						color: $white
+
+						.top
+							p
+								&:first-child
+									line-height: 1
+								&:last-child
+									width: 60%
+			.arrow-left,
+			.arrow-right
+				position: absolute
+				top: 45%
+				width: 36px
+				height: 36px
+				background: url(/images/icons/arrow-right.png) center center no-repeat $white
+				border-radius: 100%
+				cursor: pointer
+			.arrow-left
+				left: -60px
+				+rotate(180deg)
+			.arrow-right
+				right: -60px
+		.slider-nav
+			.slick-dots
+				padding-left: 0
+				list-style: none
+
+				li
+					display: inline-block
+
+					span
+						display: inline-block
+						background: #999999
+						width: 10px
+						height: 10px
+						border-radius: 100%
+						opacity: 0.5
+						margin-left: 5px
+						margin-right: 5px
+						cursor: pointer
+					&.slick-active
+						span
+							opacity: 1
+	.ev-office
+		>div
+			&:first-child
+				flex-shrink: 0
+			&:last-child
+				margin-left: 30px
+
+				.rounded-panel
+					height: 100%
+					border-radius: 15px
+					padding: 13px 25px
+	.services
+		.service
+			display: flex
+			background: $white
+			border-radius: 15px
+			margin-top: 170px
+
+			>div
+				&:first-child
+					display: flex
+					flex-direction: column
+					padding: 0 25px 15px
+
+					>div
+						height: 50%
+
+						&:first-child
+							color: $dark-blue
+							font-size: 72px
+							font-weight: 800
+							align-content: center
+						&:last-child
+							align-content: flex-end
+
+							p
+								&:first-child
+									color: $blue
+									font-weight: 600
+									font-size: 19px
+									margin-bottom: 5px
+								&:nth-child(2)
+									color: $dark-blue
+									font-size: 23px
+									font-weight: 700
+									line-height: 1.15
+									margin-bottom: 15px
+								&:nth-child(3)
+									a
+										color: $black
+										font-weight: 700
+										text-decoration: underline
+				&:last-child
+					flex-shrink: 0
+
+					img
+						border-radius: 15px
+			&:first-child
+				margin-top: 0
+	.grid
+		display: grid
+		grid-template-columns: 1fr 0.62fr 1fr
+		grid-column-gap: 30px
+		grid-row-gap: 30px
+
+		.horizontal
+			grid-column-start: 1
+			grid-column-end: 3
+			grid-row-start: 1
+			grid-row-end: 2
+		.vertical
+			grid-column-start: 3
+			grid-column-end: 4
+			grid-row-start: 1
+			grid-row-end: 3
+	.reviews
+		.slider
+			.slick-slide
+				.stars
+					img
+						display: inline
+		.slider-nav
+			.slick-dots
+				padding-left: 0
+				list-style: none
+
+				li
+					display: inline-block
+
+					span
+						display: inline-block
+						background: #999999
+						width: 10px
+						height: 10px
+						border-radius: 100%
+						opacity: 0.5
+						margin-left: 5px
+						margin-right: 5px
+						cursor: pointer
+					&.slick-active
+						span
+							opacity: 1
+
+
+
+
+
+
+
+
+
+
+
+

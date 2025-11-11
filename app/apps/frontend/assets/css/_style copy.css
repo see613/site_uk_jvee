@@ -1,0 +1,355 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+	vertical-align: bottom;
+}
+
+
+/***************/
+
+html, body {
+	position:relative;
+	min-height:100%;
+	min-width:992px;
+}
+body {
+	background: #ebebeb;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 72%;
+	line-height: 130%;
+	color: #000;
+}
+a {
+	color: #000;
+	text-decoration: underline;
+	outline: 0;
+}
+	a:hover, a:focus   {
+		text-decoration: none;
+		outline: none;
+	}
+
+input, textarea, select {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	outline: none;
+	font-size: 12px;
+	color: #676767;
+}
+h1{
+	font-size: 261%;
+	padding: 0 0 15px;
+	line-height: 100%;
+	font-weight: normal;
+	color: #969696;
+	text-transform: uppercase;
+}
+h2{
+	padding: 0 0 15px;
+	font-size: 170%;
+	line-height: 100%;
+	font-weight: normal;
+}
+h3 {
+	font-weight: normal;
+	padding-bottom: 10px;
+	font-size: 139%;
+	line-height: 115%;
+}
+ul {
+	padding-left: 15px;
+	list-style-type: disc;
+}
+ol {
+	padding-left: 20px;
+}
+ul li, ol li {
+	margin: 0 0 5px;
+}
+.clr {
+	clear: both;
+}
+
+.bg {
+	position: absolute;
+	width: 988px;
+	height: 195px;
+	border-bottom: 2px solid #c9c9c9;
+	background: #7d87a3 url(../images/bg1.jpg) center top no-repeat;
+	left: 50%;
+	margin-left: -494px;
+}
+#index .bg {
+	height: 708px;
+	background: #7d87a3 url(../images/main_bg.jpg) center top no-repeat;
+}
+
+#wrapper {
+	position: relative;
+	width: 952px;
+	margin: 0 auto;
+	padding: 0 18px;
+}
+header#header {
+	padding-top: 20px;
+	padding-bottom: 30px;
+	background: url(../images/line.gif) left bottom repeat-x;
+	margin-bottom: 50px;
+}
+#index header#header {
+	margin-bottom: 0;
+	padding-bottom: 8px;
+}
+#logo {
+	float: left;
+	margin-bottom: 25px;
+	margin-right: 15px;
+}
+.main_menu {
+	float: left;
+}
+.main_menu ul li {
+	float: left;
+	margin-right: 15px;
+}
+.main_menu ul {
+	list-style-type: none;
+	padding: 0
+}
+.main_menu ul li a, .main_menu ul li span {
+	display: block;
+	height: 21px;
+	padding: 15px;
+	text-align: center;
+	width: 110px;
+	background: url(../images/main_menu_bg.png) left bottom repeat-x;
+	color: #fff;
+	font-size: 122%;
+}
+.main_menu ul li span {
+	background: url(../images/main_menu_active_bg.png) left bottom repeat-x;
+	color: #010000;
+}
+.top_menu ul {
+	list-style-type: none;
+	padding: 0
+}
+.top_menu ul li {
+	float: left;
+	margin-right: 15px;
+	color: #fff;
+}
+.top_menu ul li a {
+	color: #fff;
+}
+.center {
+	padding-top: 43px;
+	padding-left: 45px;
+}
+#index .center {
+	min-height: 550px;
+	padding-left: 0;
+}
+.center h1 {
+	margin-right: 363px;
+}
+#index .center h1 {
+	text-align: right;
+	color: #fff;
+	font-size: 350%;
+	opacity: 0.66;
+	text-transform: uppercase;
+}
+#right {
+	float: right;
+	width: 325px;
+}
+#content {
+	margin-right: 365px;
+}
+#index .text {
+	background: url(../images/text_bg.png) left top repeat;
+	padding: 20px 20px 25px 25px;
+	border-top: 2px solid #d9dadc;
+	border-bottom: 2px solid #1c1f2a;
+}
+.text p{
+	margin-bottom: 15px;
+	line-height: 145%;
+}
+.text a.more{
+	float: right;
+	font-size: 139%;
+	color: #ff5f00;
+	margin-top: -10px;
+}
+#index .center #right h2{
+	font-size: 139%;
+	color: #fff;
+	padding-bottom: 11px;
+}
+#index .center #right h2 a{
+	color: #fff;
+}
+#index .center .our_clients {
+	background-color: #ebebeb;
+	padding: 12px 0 12px 10px;
+}
+#index .center .our_clients img {
+	margin-right: 10px;
+	vertical-align: bottom;
+}
+.map {
+	width:288px;
+	border: 6px solid #fff;
+}
+.feedback {
+	float: left;
+	margin: 0 50px 10px 0;
+}
+.feedback h3 {
+	color: #2a5190;
+	font-size: 14px;
+	padding-bottom: 8px;
+}
+.feedback img.asterisk {
+	vertical-align: top;
+}
+input, textarea {
+	border: 0;
+	border-top: 1px solid #d4d4d4;
+	border-bottom: 1px solid #f6f6f6;
+	background: #fff;
+	color: #b2b2b2;
+
+	/*
+	width: 250px;
+	height: 29px;
+	*/
+
+	/* margin: 10px 5px 0px 10px;
+	*/
+	padding: 0 5px;
+
+}
+textarea {
+	height: 105px;
+	padding: 5px;
+	/*max-width: 250px;*/
+}
+input.button {
+	width: auto;
+	padding: 0 25px 7px;
+	color: #fff;
+	height: 36px;
+	border-bottom: 1px solid #bcbcbc;
+	background: url(../images/main_menu_bg.png) left center repeat-x;
+	text-decoration: underline;
+	cursor: pointer;
+	margin-top: 20px;
+	font-size: 14px;
+}
+input.button:hover {
+	text-decoration: none;
+}
+.footnote {
+	font-size: 94%;
+	text-align: right;
+	margin-right: 20px;
+	color: #717171;
+	margin-top: -3px;
+}
+footer {
+	padding: 25px 0 10px;
+	color: #6c6c6c;
+	clear: both;
+	background: url(../images/foo_bg.png) center top no-repeat;
+}
+#index footer {
+	padding: 15px 0 10px;
+	background: none;
+}
+footer a {
+	color: #6c6c6c;
+}
+#foo_top {
+	margin-bottom: 15px;
+}
+#index #foo_top {
+	margin-bottom: 8px;
+}
+#foo_top .social{
+	float: right;
+}
+#foo_top .social a{
+	margin-left: 3px;
+}
+.cont, .cont a {
+	line-height: 135%;
+	color: #6c6c6c !important;
+}
+.text .cont p {
+	margin-bottom: 5px;
+}
+.cont span.cont_tel {
+	font-size: 160%;
+}
+.cont span.bullet {
+	margin: 0 5px;
+}
+#foo_bottom {
+	background: url(../images/line.gif) left top repeat-x;
+	padding-top: 15px;
+}
+footer .copy {
+	text-align: center;
+	text-transform: uppercase;
+	color: #8b8b8b;
+}
+
+/** feedback style **/
+.input_block{
+    margin: 10px 0 10px 0;
+}
+
+ul.form-block-errors li{
+    color: red;
+}

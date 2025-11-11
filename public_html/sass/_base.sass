@@ -1,0 +1,53 @@
+@import compass/css3
+//$debug-browser-support: true
+
+
+@mixin google-font($family)
+    @import url("https://fonts.googleapis.com/css2?family=#{$family}&display=swap")
+
+// eternal constants
+$xs-max: "(max-width : 767px)"
+
+$sm-min: "(min-width : 768px)"
+$sm: "(min-width : 768px) and (max-width : 991px)"
+$sm-max: "(max-width : 991px)"
+
+$md-min: "(min-width : 992px)"
+$md: "(min-width : 992px) and (max-width : 1199px)"
+$md-max: "(max-width : 1199px)"
+
+$lg-min: "(min-width : 1200px)"
+
+$images: "/images"
+
+$white: #ffffff
+$black: #000000
+
+
+// project constants
+
+$light-grey: #f1f1f1
+$dark-blue: #130e53
+$blue: #00aeef
+$blue1: #5c579f
+$blue2: #4285f4
+$yellow: #fbd444
+$yellow1: #fbbc05
+$green: #00ff00
+$green1: #34a853
+$red: #ea4335
+$light-green: #a3d39c
+$light-pink: #f49ac1
+$light-blue: #7da7d9
+$light-purple: #bd8cbf
+
+
+
++google-font('Open+Sans:ital,wght@0,300..800;1,300..800')
+
+
+@mixin default-font
+    font-family: "Open Sans", sans-serif
+    font-weight: 400
+    font-optical-sizing: auto
+    font-style: normal

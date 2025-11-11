@@ -1,0 +1,10 @@
+{
+    "config": {
+        "secure-http": false
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "react/http": "0.3.*",
+        "yiisoft/yii": "1.1.*"
+    }
+}
