@@ -69,7 +69,7 @@
             <div class="row pt-30 pb-25">
                 <div class="col-md-12 center">
                     <h1 class="mb-10">
-                        Welcome to <span class="extrabold">JV Electrical Essex Ltd</span>
+                        <span class="regular">Welcome to</span> JV Electrical Essex Ltd
                     </h1>
                     <p class="font-23 dark-blue">
                         We’re the local, reliable electrician you can trust to get the job done properly!
@@ -104,7 +104,7 @@
             </div>
             <div class="row pb-20">
                 <div class="col-md-6">
-                    <h2>
+                    <h2 class="font-28 regular">
                         Highlighted <span class="bold blue">Areas</span> and <span class="bold blue">Services</span> we cover
                     </h2>
                 </div>
@@ -189,7 +189,7 @@
     </div>
 </div>
 
-<div class="bg-white">
+<div class="bg-white call-to-action">
     <div class="container">
         <div class="row pt-30 pb-30">
             <div class="col-md-10 col-md-offset-1 center">
@@ -216,7 +216,7 @@
 
             <div class="row pt-30 pb-20">
                 <div class="col-md-6">
-                    <h2>
+                    <h2 class="font-28 regular">
                         <span class="bold blue">Electrical work</span> we’ve completed for <span class="bold blue">Customers</span>
                     </h2>
                 </div>

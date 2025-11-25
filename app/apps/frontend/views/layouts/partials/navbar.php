@@ -11,10 +11,10 @@
 
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-            <li class="<?=$this->activePage == 'about' ? 'active' : ''?>"><a href="/">ABOUT US</a></li>
-            <li class="<?=$this->activePage == 'services' ? 'active' : ''?>"><a href="/">SERVICES</a></li>
-            <li class="<?=$this->activePage == 'gallery' ? 'active' : ''?>"><a href="/">GALLERY</a></li>
-            <li class="<?=$this->activePage == 'contact' ? 'active' : ''?>"><a href="/">CONTACT US</a></li>
+            <li class="<?=$this->activePage == 'about' ? 'active' : ''?>"><a href="/about">ABOUT US</a></li>
+            <li class="<?=$this->activePage == 'services' ? 'active' : ''?>"><a href="/services">SERVICES</a></li>
+            <li class="<?=$this->activePage == 'gallery' ? 'active' : ''?>"><a href="/gallery">GALLERY</a></li>
+            <li class="<?=$this->activePage == 'contact' ? 'active' : ''?>"><a href="/contact">CONTACT US</a></li>
         </ul>
     </div>
 </nav>

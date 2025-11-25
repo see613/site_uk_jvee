@@ -18,6 +18,24 @@ class DefaultController extends Controller {
         $this->render('index', []);
     }
 
+    public function actionAbout() {
+        $this->activePage = 'about';
+
+        $this->render('about', []);
+    }
+
+    public function actionDomesticServices() {
+        $this->activePage = 'domestic-services';
+
+        $this->render('domestic-services', []);
+    }
+
+    public function actionCommercialServices() {
+        $this->activePage = 'commercial-services';
+
+        $this->render('commercial-services', []);
+    }
+
     public function actionError()
     {
         $this->activePage = 'error';

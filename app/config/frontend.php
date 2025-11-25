@@ -85,6 +85,9 @@ return CMap::mergeArray(
                     '/min/serve' => 'min/serve',
 
                     '/' => 'content/default/index',
+                    '/about' => 'content/default/about',
+                    '/domestic-services' => 'content/default/domesticServices',
+                    '/commercial-services' => 'content/default/commercialServices',
 
                     '/contact/submit' => 'contact/contact/index',
                     '/contact/submitwidget' => 'contact/contact/submitwidget',
