@@ -27,7 +27,7 @@
     $cs->registerCssFile('/css/helpers.css?1');
     $cs->registerCssFile('/css/helpers-media.css?1');
 
-    $cs->registerCssFile('/css/styles.css?2');
+    $cs->registerCssFile('/css/styles.css?3');
 
 
     $cs->registerCoreScript('jquery');

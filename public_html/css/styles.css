@@ -286,8 +286,33 @@ p {
 #header .main .navbar .navbar-nav > li > a:hover, #header .main .navbar .navbar-nav > li > a:focus {
   background: none;
 }
-
 /* line 27, ../sass/partials/_header.sass */
+#header .main .navbar .navbar-nav > li.dropdown .dropdown-toggle {
+  padding-right: 17px;
+  background: url(/images/icons/arrow-down.png) top 22px right no-repeat;
+}
+/* line 30, ../sass/partials/_header.sass */
+#header .main .navbar .navbar-nav > li.dropdown .dropdown-menu {
+  border-radius: 0;
+  border: 0;
+  box-shadow: none;
+  padding: 0;
+  min-width: 0;
+  font-size: 16px;
+}
+/* line 39, ../sass/partials/_header.sass */
+#header .main .navbar .navbar-nav > li.dropdown .dropdown-menu li a {
+  padding: 3px 10px;
+  color: #130e53;
+  background: #ffffff;
+}
+/* line 44, ../sass/partials/_header.sass */
+#header .main .navbar .navbar-nav > li.dropdown .dropdown-menu li a:hover {
+  color: #00aeef;
+  background: #130e53;
+}
+
+/* line 51, ../sass/partials/_header.sass */
 #header-sticky-wrapper {
   position: absolute;
   top: 0;
@@ -295,19 +320,19 @@ p {
   right: 0;
   z-index: 1;
 }
-/* line 35, ../sass/partials/_header.sass */
+/* line 59, ../sass/partials/_header.sass */
 #header-sticky-wrapper.is-sticky #header {
   background: rgba(255, 255, 255, 0.7);
 }
-/* line 38, ../sass/partials/_header.sass */
+/* line 62, ../sass/partials/_header.sass */
 #header-sticky-wrapper.is-sticky #header .not-sticky {
   display: none;
 }
-/* line 40, ../sass/partials/_header.sass */
+/* line 64, ../sass/partials/_header.sass */
 #header-sticky-wrapper.is-sticky #header .sticky {
   display: block;
 }
-/* line 42, ../sass/partials/_header.sass */
+/* line 66, ../sass/partials/_header.sass */
 #header-sticky-wrapper.is-sticky #header .pb-0-sticky {
   padding-bottom: 0;
 }

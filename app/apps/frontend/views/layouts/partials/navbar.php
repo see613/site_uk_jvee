@@ -12,7 +12,20 @@
     <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
             <li class="<?=$this->activePage == 'about' ? 'active' : ''?>"><a href="/about">ABOUT US</a></li>
-            <li class="<?=$this->activePage == 'services' ? 'active' : ''?>"><a href="/services">SERVICES</a></li>
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">SERVICES</a>
+
+                <ul class="dropdown-menu">
+                    <li class="<?=$this->activePage == 'domestic-services' ? 'active' : ''?>">
+                        <a href="/domestic-services">Domestic Electrical Services</a>
+                    </li>
+                    <li class="<?=$this->activePage == 'commercial-services' ? 'active' : ''?>">
+                        <a href="/commercial-services">Commercial Electrical Services</a>
+                    </li>
+                </ul>
+            </li>
+
             <li class="<?=$this->activePage == 'gallery' ? 'active' : ''?>"><a href="/gallery">GALLERY</a></li>
             <li class="<?=$this->activePage == 'contact' ? 'active' : ''?>"><a href="/contact">CONTACT US</a></li>
         </ul>
